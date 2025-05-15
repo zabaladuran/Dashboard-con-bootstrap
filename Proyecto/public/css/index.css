@@ -1,0 +1,108 @@
+body {
+    background: #d3d3d3 !important;
+}
+.card-custom {
+    width: 180px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #222;
+    border-radius: 0;
+    background: #fff;
+    margin: 0 20px 30px 0;
+    box-shadow: none;
+}
+.card-cafe {
+    width: 180px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #222;
+    border-radius: 0;
+    background: #fff;
+    margin: 0 20px 30px 0;
+    box-shadow: none;
+}
+.icon-cafe {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* Barra lateral fija */
+.sidebar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background: #212529;
+    color: #fff;
+    z-index: 1030;
+    padding: 24px 16px;
+}
+.sidebar-fixed .nav-link {
+    color: #fff;
+}
+.sidebar-fixed .nav-link.active, .sidebar-fixed .nav-link:hover {
+    background: #343a40;
+    color: #fff;
+}
+.main-content {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    min-height: 100vh;
+}
+
+/* Detalle Café */
+.detalle-header {
+    border-bottom: 2px solid #222;
+    background: #fff;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.detalle-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid #222;
+    background: #fff;
+}
+.detalle-card {
+    width: 220px;
+    border: 2px solid #222;
+    background: #fff;
+    margin-top: 10px;
+}
+.detalle-desc {
+    border: 2px solid #222;
+    background: #fff;
+    padding: 16px;
+    min-width: 350px;
+}
+.btn-editar {
+    background: orange;
+    color: #222;
+    border: none;
+    padding: 2px 12px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.btn-volver {
+    background: #fff;
+    color: #222;
+    border: 2px solid #222;
+    padding: 2px 12px;
+    font-size: 14px;
+    transition: background 0.2s, color 0.2s;
+}
+.btn-volver:hover {
+    background: #4caf50;
+    color: #fff;
+    border: 2px solid #222;
+}
